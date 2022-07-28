@@ -20,4 +20,4 @@ git add . && git commit -am "proto update" || true
 git push origin HEAD:main
 git tag -fa golang/${SERVICE_NAME}/${RELEASE_VERSION} \
     -m "golang/${SERVICE_NAME}/${RELEASE_VERSION}"
-git push origin refs/tag/golang/§{SERVICE_NAME}/${RELEASE_VERSION}
+git push origin refs/tag/golang/${SERVICE_NAME}/${RELEASE_VERSION}
