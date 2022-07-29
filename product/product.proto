@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package ecommerce.v1;
 
-option go_package = "github/docseltsam/microservices/golang/productInfo";
+option go_package = "github/docseltsam/microservices/golang/product";
 
 service ProductInfo {
     rpc addProduct(Product) returns (ProductID);
