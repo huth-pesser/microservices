@@ -22,6 +22,7 @@ go mod init github.com/docseltsam/microservices/golang/${SERVICE_NAME} || true
 go mod tidy
 cd ../../
 
+git pull
 git add . && git commit -am "proto update" || true
 git push origin HEAD:main
 
