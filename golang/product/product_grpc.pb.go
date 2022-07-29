@@ -4,7 +4,7 @@
 // - protoc             v3.6.1
 // source: product/product.proto
 
-package productInfo
+package product
 
 import (
 	context "context"
